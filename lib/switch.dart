@@ -23,7 +23,7 @@ class Today extends StatefulWidget {
   SwitchClass createState() => new SwitchClass();
 }
 
-class _TodayState extends State<Today> {
+class SwitchClass extends State<Today> {
   bool isSwitched = false;
   var textValue = "Switch is off";
   void toggleSwitch(bool value){
